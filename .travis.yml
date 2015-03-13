@@ -1,0 +1,4 @@
+nguage: java
+jdk:
+  - openjdk7
+script: ./build-parsers.sh
