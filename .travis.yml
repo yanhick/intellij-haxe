@@ -10,4 +10,4 @@ deploy:
   file: intellij-haxe.jar
   on:
     repo: yanhick/intellij-haxe
-    branch: build-jar-from-cli
+    branch: master
