@@ -1,5 +1,5 @@
 language: java
+sudo: false
 jdk:
 - openjdk7
-before_script:
-    script: ./install-haxe.sh && PATH=haxe:$PATH ./travis.sh
+script: ./install-haxe.sh && PATH=haxe:$PATH ./travis.sh
