@@ -2,4 +2,4 @@ language: java
 sudo: false
 jdk:
 - openjdk7
-script: ./install-haxe.sh && PATH=haxe:$PATH ./travis.sh
+script: ./install-neko.sh && LD_LIBRARY_PATH=neko ./install-haxe.sh && PATH=haxe:$PATH ./travis.sh
